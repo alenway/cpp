@@ -10,3 +10,7 @@ eg:
 g++ -o output Main.cpp
 
 ./output
+
+for c use
+
+gcc -o output Main.c

@@ -13,7 +13,7 @@ Simply use `- [ ]` for uncompleted tasks and `- [x]` for completed tasks in your
 
 | Project Name | Concepts Used | Description | ✅ Completed |
 |--------------|---------------|-------------|-------------|
-| 📟 Calculator | Operators, conditionals | Simple CLI calculator for +, –, ×, ÷ | [ ] |
+| 📟 Calculator | Operators, conditionals | Simple CLI calculator for +, –, ×, ÷ | [x] |
 | 🔢 Number Guessing Game | Loops, `rand()`, `if` | User tries to guess a random number | [ ] |
 | 📋 Student Record System | Structures, arrays | Input and display multiple student records | [ ] |
 | 🕹️ Tic-Tac-Toe | 2D Arrays, logic | CLI version of the classic game | [ ] |

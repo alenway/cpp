@@ -6,10 +6,10 @@ These exercises cover basic to advanced concepts commonly encountered in academi
 technical interviews, and real-world applications.
 1. Basic Programs
 1. Print "Hello, World!"
-2. 3. 4. 5. Swap two numbers without using a third variable
-Find the largest and smallest among three numbers
-Check if a number is even or odd
-Check if a number is prime
+2. Swap two numbers without using a third variable
+3. Find the largest and smallest among three numbers
+4. Check if a number is even or odd
+5. Check if a number is prime
 2. Loops and Conditional Statements
 6. Print Fibonacci series up to N terms
 7. Reverse a number

@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+  int teaLeaves = 50;
+  float waterTemperature = 85.5;
+  double priceOfTea = 499.999;
+  char teaGrade = 'A';
+  bool isTeaReady = false; 
+  return 0;
+}

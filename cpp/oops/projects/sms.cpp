@@ -1,34 +1,32 @@
 #include<iostream>
+#include <utility>
 using namespace std;
 
 class Student {
-private:
     string name;
     int age;
 public:
-    Student(const string &name, int age) {
-        this->name = name;
-        this->age = age;
+    Student(string name, const int age) : name(std::move(name)), age(age) {
     }
     void setName(const string &name) {
         this->name = name;
     }
-    string getName() {
+    auto getName() -> string {
         return this->name;
     }
     void setAge(int age) {
         this->age = age;
     }
-    int getAge() const {
+    auto getAge() const -> int {
         return this->age;
     }
 };
 
-int main() {
-    auto s1 = Student("Narendra", 20);
-    auto s2 = Student("Ravi", 23);
+auto main() {
+    auto student1 = Student("Narendra", 20);
+    auto student2 = Student("Ravi", 23);
 
-    cout << s1.getName() << " " << s1.getAge() << endl;
-    cout << s2.getName() << " " << s2.getAge() << endl;
+    cout << student1.getName() << " " << student1.getAge() << '\n';
+    cout << student2.getName() << " " << student2.getAge() << '\n';
     return 0;
 }
